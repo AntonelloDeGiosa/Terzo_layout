@@ -1,10 +1,26 @@
-.title h2 {
+.title h1 {
     color: #fff;
     font-family: Maryweader;
-    background-color: aqua;
+    background: red;
     font-style: bold;
     font-size: 80px;
-    text-align: center;
     width: 1057px;
     height: 101px;
+    text-align: center;
+
+    
+}
+
+.main{
+    flex-grow: 1;
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+
 }
