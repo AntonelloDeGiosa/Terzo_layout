@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav{
+    margin-top: 87px;
+    margin-right: 35px;
+}
+
+.separatore{
+    margin-right: 54px;
+}
