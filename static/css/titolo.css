@@ -1,61 +1,30 @@
-.title h1 {
+.titolo h2{
     font-size: 80px;
-    color: #FFFFFF;
-    border-bottom: 2px solid #343434;
-    border-top: 2px solid #343434;
-    text-align: center;
-    padding-top: 18.5px; 
+    line-height: 1;
+    color: white;
+    padding-top: 18.5px;
     padding-bottom: 20.5px;
+    border-top: solid 3px #343434;
+    border-bottom: solid 3px #343434;
+}
 
-    
+.paragrafo p{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+    font-weight: normal;
+    justify-content: center;
+    margin-top: 55.25px;
+    font-family: "Hoefler Text", serif;
 }
 
 .main{
-    flex-grow: 1;
-    
-}
-
-.parent{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    flex-grow: 1;
+    justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    
-
+ 
 }
 
-.paragrafo{
-    font-size: 30px;
-    color: white;
-    font-family: Hoefler;
-    font-style: normal;
-    margin-top: 55px;
-    text-align: center;
-  
-    margin-bottom: 0px;
-    
-}
-
-.bottone a{
-    font-size: 30px;
-    color: #080C71;
-    font-family: Merriweather;
-    text-decoration: none;
-    list-style: none;
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 120px;
-    padding-right: 120px;
-    border-radius: 15px;
-    margin-top: 45px;
-    
-    
-}
-.bottone{
-    margin-top: 20px;
-    border-top: solid;
-    border-top-color: rgb(255, 255, 255);
-    display: flex;;
-}

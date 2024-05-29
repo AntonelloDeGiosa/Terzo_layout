@@ -1,36 +1,37 @@
 .menu{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
-    
-    list-style: none;
+    position: relative;
 }
-
-.menu a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-.menu ul{  
-    list-style: none;
+.menu ul{
     display: flex;
-    
-    padding-left: 54px;
-    margin-right: 35px;;
-    
-    
-}
-nav{
-    margin-right: 35px;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    line-height: 1;
+    font-size: 20px;
+    margin-top: 85px;
+    margin-right: 35px;  
 }
 
-.separatore{
-    list-style: none;
+.menu li{
+   padding-left: 54px;
+}
+
+.menu h1{
+    width: 227px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 35px;
+    position: absolute;
+    left: 0;
+}
+
+.menu a:link,
+.menu a:visited,
+.menu a:hover,
+.menu a:active{
     text-decoration: none;
-    color: white;
-    font-family: Merriweather;
-    font-size: 20px; 
-    margin-left: 55px;
-    margin-top: 87px;
+    color: #fff;
 }

@@ -1,18 +1,11 @@
-.bottom-links{
-    padding-top: 170px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 75px;
-}
-
-.bottom-links li{
-    list-style: none;
-    padding-left: 67.5px;
-}
-
-.bottom-links ul{
+.social {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 35px;
+}
+
+.social img {
+    padding-left: 65px;
 }
