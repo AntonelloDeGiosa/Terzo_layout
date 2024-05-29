@@ -70,3 +70,9 @@
     align-items: center;
     margin-top: 0px;
   }
+
+
+  .body{
+    width: 100vw;
+    height: 100vh;
+}
