@@ -17,34 +17,45 @@
 
 .parent{
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
+    margin-top: 100px;
     
 
 }
 
 .paragrafo{
     font-size: 30px;
-    color: #FFFFFF;
+    color: white;
+    font-family: Hoefler;
+    font-style: normal;
+    margin-top: 55px;
     text-align: center;
+  
+    margin-bottom: 0px;
     
 }
 
 .bottone a{
-    background-color: #FFFFFF;
-    text-align: center;
+    font-size: 30px;
     color: #080C71;
-    margin-top: 44.5px;
-    font-size: 35px;
-    padding-left: 124.1px;
-    padding-bottom: 11px;
+    font-family: Merriweather;
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
     padding-top: 15px;
-    padding-right: 125.9px;
+    padding-bottom: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
     border-radius: 15px;
+    margin-top: 45px;
     
     
 }
 .bottone{
-    border-top: 2px solid #FFFFFF;
+    margin-top: 20px;
+    border-top: solid;
+    border-top-color: rgb(255, 255, 255);
+    display: flex;;
 }
